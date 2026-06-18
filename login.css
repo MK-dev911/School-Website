@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+input:focus,
+input:active {
+    outline: 0;
+}
+
+/* Background decorative circle */
+.circle_1 {
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    background-image: linear-gradient(to right, #42829b, #356a7d);
+    z-index: -1;
+    border-radius: 100%;
+    left: -9rem;
+    top: 54%;
+    transform: translateY(-38%);
+}
+
+/* Main card container */
+.login_page {
+    width: 81%;
+    max-width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Form section (Left side - wider) */
+.login_page form {
+    width: 60%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(22px);
+}
+
+.login_page form h1 {
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    padding-left: 12px;
+    text-transform: capitalize;
+}
+
+.form-group input {
+    border: 2px solid #fff;
+    background-color: transparent;
+    height: 45px;
+    border-radius: 20px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+/* Form actions & buttons */
+.button-form {
+    width: 50%;
+}
+
+.button-form button {
+    border: none;
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-form button:hover {
+    background-color: #356a7d;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.bottom-form a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: opacity 0.2s ease;
+}
+
+.bottom-form a:hover {
+    opacity: 0.8;
+}
+
+/* Image section (Right side - narrower) */
+.login-img {
+    width: 65%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b9601cbb;
+    overflow: hidden;
+}
+
+.login-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .login-img {
+        display: none;
+    }
+
+    .login_page form {
+        width: 100%;
+    }
+
+    .form-group, 
+    .button-form {
+        width: 80%;
+    }
+}

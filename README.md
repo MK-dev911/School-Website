@@ -6,7 +6,7 @@ A modern, responsive, and fully interactive school website platform designed to 
 
 ## ✨ Features
 
-* **💫Main Landing Page:** A welcoming homepage featuring the school's vision, core values, and quick navigation links.
+* **💫Main Landing Page:** A welcoming homepage with core values, and quick navigation links.
 * **📰 News Section:** A dynamic area for announcements, upcoming school events, and recent achievements.
 * **📝 Admissions Portal:** A user-friendly digital application form with interactive validation for prospective students.
 * **👩‍🏫 Teacher Section:** A dedicated space highlighting faculty members, departments, and educational resources.

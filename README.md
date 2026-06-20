@@ -21,14 +21,6 @@ A modern, responsive, and fully interactive school website platform designed to 
 
 ---
 
-## 📸 Screenshots
-
-| Main Homepage | Admissions Portal | Student Login |
-| :---: | :---: | :---: |
-| <img src="https://via.placeholder.com/300x180?text=Homepage+Preview" width="300" alt="Homepage"/> | <img src="https://via.placeholder.com/300x180?text=Admissions+Preview" width="300" alt="Admissions"/> | <img src="https://via.placeholder.com/300x180?text=Login+Preview" width="300" alt="Login"/> |
-
----
-
 ## 🛠️ Installation & Setup
 
 To run this project locally, follow these simple steps:

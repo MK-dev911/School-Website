@@ -206,7 +206,7 @@ html, body {
 
 .hero {
   min-height: 100vh;
-  background: url("/image/background2.jpg") center/cover no-repeat;
+  background: url("image/background2.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

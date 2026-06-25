@@ -23,8 +23,12 @@ A modern, responsive, and fully interactive school website platform designed to 
 
 ## 🛠️ Installation & Setup
 
-To run this project locally, follow these simple steps:
+For visiting this website you can simply:
 
-1. **Clone the repository:**
+1. **Click on the URL:** (https://mk-dev911.github.io/School-Website/)
+
+Or
+
+2. **Clone the repository:**
    ```bash
    git clone [https://github.com/MK-dev911/School-Website.git](https://github.com/MK-dev911/School-Website.git)

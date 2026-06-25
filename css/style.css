@@ -206,7 +206,7 @@ html, body {
 
 .hero {
   min-height: 100vh;
-  background: url("/img/background2.jpg") center/cover no-repeat;
+  background: url("/image/background2.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -783,7 +783,7 @@ html, body {
 
 .info-panel {
   flex: 1;
-  background: linear-gradient(rgba(66, 130, 155, 0.9), rgba(66, 130, 155, 0.9)), url('../img/background2.jpg') center/cover;
+  background: linear-gradient(rgba(66, 130, 155, 0.9), rgba(66, 130, 155, 0.9)), url('../image/background2.jpg') center/cover;
   color: white;
   display: flex;
   align-items: center;
